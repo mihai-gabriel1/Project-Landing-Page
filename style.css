@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0 auto;
+}
+
+/* Header logo and the top navigation STARTS HERE */
+
+.navigation {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+a {
+  list-style-type: none;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  color: #f9faf8;
+}
+
+/* Header logo and the top navigation ENDS HERE */
+
+/* Main header starts here */
+
+.header {
+  background-color: #1f2937;
+  padding-top: 40px;
+}
+
+.awesome-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  /* display: flex; */
+}
+.dummy {
+  font-size: 18px;
+  color: #e5e7eb;
+  /* width: 400px; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+button {
+  background-color: rgb(52, 175, 224);
+  border-radius: 12px;
+  font-size: 18px;
+}
+.alice {
+  width: 350px;
+  height: 200px;
+  /* padding: 40px; */
+}
