@@ -31,6 +31,15 @@ a {
   color: #f9faf8;
 }
 
+.logoimage {
+  width: 130px;
+  height: 130px;
+}
+
+.navlinks {
+  padding-bottom: 100px;
+}
+
 /* Header logo and the top navigation ENDS HERE */
 
 /* Main header starts here */
