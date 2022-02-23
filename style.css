@@ -48,6 +48,7 @@ a {
   color: #f9faf8;
   display: flex;
   flex-direction: column;
+  margin-left: 40px;
 }
 .dummy {
   font-size: 18px;
@@ -68,6 +69,12 @@ button {
   font-size: 18px;
   width: 80px;
 }
+
+.petme {
+  border: 2px solid ;
+  margin-top: 5px;
+}
+
 .alice {
   width: 250px;
   height: 300px;
@@ -92,6 +99,8 @@ button {
     justify-content: center;
     gap: 100px;
     text-align: center;
+    padding: 20px;
+    margin-top: 10px;
   }
 
   .alicepics p {
@@ -104,3 +113,68 @@ button {
   }
 
 /* Article 1 ends here */
+
+/* Article 2 starts here */
+
+  .article2 {
+    padding: 30px;
+  }
+
+  .paragraphs {
+    background-color: #e5e7eb;
+    font-size: 22px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    padding: 100px;
+    text-align: center;
+  }
+
+  .god {
+    text-align: right;
+    color: #1f2937 ;
+  }
+
+/* Article 2 ends here */
+
+/* Action starts here */
+
+  .action {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    /* width: 700px; */
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    margin: 60px;
+  }
+
+  .actionp {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .sign {
+    color: white;
+    border-color: white;
+  }
+/* Action ends here */
+
+/* Footer starts here */
+
+  .footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .sign {
+    border: 2px solid;
+  }
+
+/* Footer ends here */
