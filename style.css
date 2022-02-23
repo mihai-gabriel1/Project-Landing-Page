@@ -63,13 +63,44 @@ a {
 }
 
 button {
-  background-color: rgb(52, 175, 224);
+  background-color: #3882f6;
   border-radius: 12px;
   font-size: 18px;
   width: 80px;
 }
 .alice {
-  width: 350px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
   padding: 40px;
 }
+
+/* Article 1 beggins here */
+
+  .information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .alicepics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+  }
+
+  .alicepics p {
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+  }
+
+  img {
+    border-radius: 50px;
+  }
+
+/* Article 1 ends here */
