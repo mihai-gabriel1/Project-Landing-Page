@@ -27,7 +27,6 @@ ul {
 a {
   list-style-type: none;
   text-decoration-line: none;
-  text-decoration-style: none;
   color: #f9faf8;
 }
 
@@ -88,6 +87,16 @@ button {
   margin-left: 12px;
 }
 
+.petme:hover {
+  cursor: pointer;
+}
+
+.petme:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .alice {
   width: 250px;
   height: 300px;
@@ -95,6 +104,12 @@ button {
 }
 
 /* Article 1 beggins here */
+
+  .article1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
   .information {
     font-size: 36px;
@@ -114,6 +129,7 @@ button {
     text-align: center;
     padding: 20px;
     margin-top: 10px;
+    flex-wrap: wrap;
   }
 
   .alicepics p {
@@ -184,6 +200,22 @@ button {
     justify-content: space-between;
     gap: 50px;
   }
+
+  .sign {
+    border: 2px solid;
+    text-align: center;
+    width: 100px;
+  }
+
+  .sign:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .sign:hover {
+    cursor: pointer;
+  }
 /* Action ends here */
 
 /* Footer starts here */
@@ -195,12 +227,6 @@ button {
     justify-content: center;
     text-align: center;
     padding: 40px;
-  }
-
-  .sign {
-    border: 2px solid;
-    text-align: center;
-    width: 100px;
   }
 
 /* Footer ends here */
