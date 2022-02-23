@@ -54,6 +54,7 @@ a {
   font-size: 18px;
   color: #e5e7eb;
   width: 450px;
+  margin-left: 15px;
 }
 
 .header {
@@ -73,6 +74,7 @@ button {
 .petme {
   border: 2px solid ;
   margin-top: 5px;
+  margin-left: 12px;
 }
 
 .alice {
@@ -133,6 +135,7 @@ button {
   .god {
     text-align: right;
     color: #1f2937 ;
+    font-weight: bold;
   }
 
 /* Article 2 ends here */
@@ -142,23 +145,33 @@ button {
   .action {
     background-color: #3882f6;
     color: white;
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
-    /* width: 700px; */
+    width: 1200px;
     align-items: center;
     text-align: center;
     padding: 60px;
-    margin: 60px;
+    margin: 20px auto;
+    /* display: inline-block; */
+    border-radius: 15px;
   }
 
   .actionp {
     font-size: 26px;
     font-weight: bold;
+    text-align: left;
   }
 
   .sign {
     color: white;
     border-color: white;
+    text-align: center;
+  }
+
+  .test {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
   }
 /* Action ends here */
 
@@ -175,6 +188,8 @@ button {
 
   .sign {
     border: 2px solid;
+    text-align: center;
+    width: 100px;
   }
 
 /* Footer ends here */
